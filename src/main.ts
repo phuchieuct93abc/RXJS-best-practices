@@ -32,8 +32,6 @@ export class StoreService {
     <h1>Component one</h1>
     <input [(ngModel)]="name"/><br/>
     <button (click)="apply()">Set value</button><br/>
-
-   
   `,
   imports: [FormsModule, AsyncPipe],
 })
